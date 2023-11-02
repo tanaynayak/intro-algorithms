@@ -36,3 +36,8 @@ def merge_sort(arr):
     sorted_arr += right_half[j:]
 
     return sorted_arr
+
+if __name__ == "__main__":
+    arr = [5, 2, 4, 6, 1, 3]
+    print("Unsorted array:", arr)
+    print("Sorted array:", merge_sort(arr))
